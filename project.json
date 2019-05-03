@@ -1,0 +1,16 @@
+{
+    "id": "ecs_nested_prefab",
+    "type": "application",
+    "value": {
+        "author": "Sander Mertens",
+        "description": "Application that demonstrates nested prefabs and prefab variants",
+        "use": [
+            "flecs",
+            "flecs.components.transform",
+            "flecs.components.geometry",
+            "flecs.components.graphics",
+            "flecs.components.input",
+            "flecs.systems.sdl2"
+        ]
+    }
+}
